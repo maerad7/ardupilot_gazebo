@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>ardupilot_sitl_gazebo</name>
+  <version>1.0.0</version>
+  <description>The ardupilot_gazebo package</description>
+
+  <maintainer email="cagatay@robostate.com">Lorenz Meier</maintainer>
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/robostate/ardupilot_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>gazebo_ros</buildtool_depend>
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+  	<gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}"
+		gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
