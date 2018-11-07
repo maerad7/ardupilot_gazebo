@@ -86,7 +86,7 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris -m --mav10 --map --console -I0
 
 On 2nd Terminal(Launch Gazebo with demo 3DR Iris model)
 ````
-gazebo --verbose worlds/iris_arduco_demo.world
+gazebo --verbose worlds/iris_arducopter_demo2.world
 ````
 
 ##### PLANE
