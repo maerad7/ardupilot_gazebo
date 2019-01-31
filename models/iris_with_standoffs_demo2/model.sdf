@@ -26,7 +26,7 @@
 
     <!--include>
       <uri>model://gimbal_small_2d</uri>
-      <pose>0 -0.01 0.070 1.57 0 1.57</pose>
+      <pose>0 -0.02 -0.12 1.5708 0 3.14159</pose>
     </include>
 
     <joint name="iris_gimbal_mount" type="revolute">
@@ -541,6 +541,7 @@
       <!--
           Require by APM :
           Only change model and gazebo from XYZ to XY-Z coordinates
+          EDIT(cosmicog): Made it work with precision landing code (by cagataysari) that lands px4
       -->
       <modelXYZToAirplaneXForwardZDown>0 0 0 3.141593 0 -1.5708</modelXYZToAirplaneXForwardZDown>
       <gazeboXYZToNED>0 0 0 3.141593 0 1.5708</gazeboXYZToNED>
