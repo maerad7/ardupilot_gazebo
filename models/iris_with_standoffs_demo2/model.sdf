@@ -7,12 +7,12 @@
     </include>
     
     <include>
-      <uri>model://webcam</uri>
+      <uri>model://camera</uri>
       <pose>0.0 0.0 -0.04 0 1.5708 0.0</pose>
     </include>
 
-    <joint name="webcam_joint" type="fixed">
-      <child>camera::camera_link</child>
+    <joint name="cam_joint" type="fixed">
+      <child>camera::link</child>
       <parent>iris::base_link</parent>
       <axis>
         <xyz>0 0 1</xyz>
