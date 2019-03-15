@@ -48,9 +48,10 @@
           </mesh>
         </geometry>
         <material>
-          <script>
-            <name>Gazebo/DarkGrey</name>
-          </script>
+        <script>
+          <name>Gazebo/FlatBlack</name>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+        </script>
         </material>
       </visual>
 
@@ -78,10 +79,10 @@
           </cylinder>
         </geometry>
         <material>
-          <script>
-            <name>Gazebo/FlatBlack</name>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-          </script>
+        <script>
+          <name>Gazebo/FlatBlack</name>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+        </script>
         </material>
       </visual>
       <visual name='rear_left_leg_visual'>
@@ -93,10 +94,10 @@
           </cylinder>
         </geometry>
         <material>
-          <script>
-            <name>Gazebo/FlatBlack</name>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-          </script>
+        <script>
+          <name>Gazebo/FlatBlack</name>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+        </script>
         </material>
       </visual>
       <visual name='rear_right_leg_visual'>
@@ -108,10 +109,10 @@
           </cylinder>
         </geometry>
         <material>
-          <script>
-            <name>Gazebo/FlatBlack</name>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-          </script>
+        <script>
+          <name>Gazebo/FlatBlack</name>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+        </script>
         </material>
       </visual>
     </link>
@@ -269,7 +270,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Blue</name>
+            <name>Gazebo/White</name>
             <uri>__default__</uri>
           </script>
         </material>
@@ -409,7 +410,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Blue</name>
+            <name>Gazebo/White</name>
             <uri>__default__</uri>
           </script>
         </material>
