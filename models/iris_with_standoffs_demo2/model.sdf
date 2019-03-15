@@ -3,12 +3,12 @@
   <model name="iris_demo">
     <include>
       <uri>model://iris_with_standoffs</uri>
-      <pose>0.0 0.0 1.2 0.0 0.0 0.0</pose>
+      <pose>0.0 0.0 3.0 0.0 0.0 0.0</pose>
     </include>
     
     <include>
       <uri>model://camera</uri>
-      <pose>0.0 0.0 1.16 0 1.5708 0.0</pose> <!-- 1.2 - 0.04-->
+      <pose>0.0 0.0 2.96 0 1.5708 0.0</pose> <!-- 3.0 - 0.04-->
     </include>
 
     <joint name="cam_joint" type="fixed">
